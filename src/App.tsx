@@ -124,7 +124,7 @@ function App() {
         </div>
 
         <div className="particles">
-          {[...Array(210)].map((_, i) => (
+          {[...Array(100)].map((_, i) => (
             <motion.div
               key={i}
               className="particle"
@@ -488,10 +488,10 @@ function App() {
                 <span><strong>Website</strong><br />www.bluuhorizon.com</span>
               </p>
               <div className="social-icons">
-                <a href="#" className="social-icon">in</a>
-                <a href="#" className="social-icon">𝕏</a>
-                <a href="#" className="social-icon">◉</a>
-                <a href="#" className="social-icon">▶</a>
+                <a href="https://linkedin.com" className="social-icon">in</a>
+                <a href="https://x.com" className="social-icon">𝕏</a>
+                <a href="https://github.com" className="social-icon">◉</a>
+                <a href="https://youtube.com" className="social-icon">▶</a>
               </div>
             </div>
             <div className="contact-form">
@@ -510,9 +510,9 @@ function App() {
         <div className="container">
           <p>© 2025 BLUU HORIZON. All rights reserved.</p>
           <div className="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">GitHub</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://x.com">Twitter</a>
+            <a href="https://github.com">GitHub</a>
           </div>
         </div>
       </footer>
